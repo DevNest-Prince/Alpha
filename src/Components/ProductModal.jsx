@@ -6,7 +6,7 @@ const ProductModal = ({ product, onClose }) => {
 
   const handleWhatsAppOrder = () => {
     // Replace with your phone number
-    const phoneNumber = "919876543210"; 
+    const phoneNumber = "919999999999"; 
     const message = `Hello, I am interested in buying: ${product.name} - Price: ${product.price}. Please share more details.`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
