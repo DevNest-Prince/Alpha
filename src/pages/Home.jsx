@@ -94,7 +94,7 @@ const Home = () => {
             Lighting is the soul of your home. Connect with our experts directly on WhatsApp for <span className="text-yellow-400 font-medium">personalized styling advice</span>.
           </p>
           <button 
-             onClick={() => window.open('https://wa.me/919876543210', '_blank')}
+             onClick={() => window.open('https://wa.me/9999999999', '_blank')}
              className="inline-flex items-center gap-2 bg-white text-gray-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105"
           >
             <MessageCircle className="h-5 w-5" />
