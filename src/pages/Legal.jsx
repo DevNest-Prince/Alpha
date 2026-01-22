@@ -10,7 +10,6 @@ const PrivacyPolicy = () => {
 
   return (
     <>
-      <Navbar />
       <div className="pt-24 pb-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto min-h-screen">
         <h1 className="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">Privacy Policy</h1>
         
@@ -61,7 +60,6 @@ const PrivacyPolicy = () => {
           </section>
         </div>
       </div>
-      <Footer />
     </>
   );
 };
