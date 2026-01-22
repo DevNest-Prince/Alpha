@@ -1,4 +1,3 @@
-import ProductImg1 from '../assets/products/hero-light.jpg';
 export const products = [
   {
     id: 1,
@@ -6,7 +5,7 @@ export const products = [
     category: "Lamps",  
     price: "₹1,499",
     description: "Elegant warm light ideal for bedside tables. Features a matte finish base and energy-efficient LED bulb.",
-    image: {ProductImg1},
+    image: "https://unsplash.com/photos/orange-and-black-floor-lamp-_bzFLkJyY6o",
   },
   {
     id: 2,
